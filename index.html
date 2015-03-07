@@ -15,11 +15,23 @@
     <link href="css/custom.css" rel="stylesheet">
     <link href="fonts/stylesheet.css" rel="stylesheet">
 
+    <link href='http://fonts.googleapis.com/css?family=Creepster|Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 </head>
+<!--Find a better font for general text
+    Decide on font size
+    Icons for each skill in skill section
+    Icon for email/phone
+    https://github.com/Sgawrys/EyesOnCode/tree/final
+
+
+
+-->
 <body id="pageTop">
 
 <!--Navbar-->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top blacked" role="navigation">
     <div class="container">
         <!--Navbar Left-->
         <div class="navbar-header">
@@ -34,7 +46,10 @@
                     <a class="page-scroll" href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="#skillsAndresume">Skills & Resume</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
                     <a  href="#contact">Contact</a>
@@ -45,9 +60,95 @@
 </nav>
 
 <!--Intro-->
-<div class="jumbotron jumbotronTop">
-    <h1>Adam Abdelaziz</h1>
-</div>
+<div class="jumbotron jumbotronTop backgroundimg" div id="jumbo">
 
+        <h1>Adam Abdelaziz</h1>
+        <h2>Stony Brook University, Computer Science</h2>
+    </div>
+
+    <!--ABOUT-->
+    <div class="container-fluid blacked" id="about">
+        <div class="row">
+            <div class="spacer20"></div>
+            <h1 class="text-center heady">About</h1>
+            <div class="spacer20"></div>
+            <div class="col-lg-8 col-lg-offset-2 text-center texty">
+                <p>I'm a recent college graduate working towards my first career in the Software Engineering industry.
+                I have a good, sarcastic sense of humor, am easy to work with and am even easier to get along with. I'm most proficient in Java but am also very familiar with various web
+                technologies and programming languages.</p>
+                <div class="spacer20"></div>
+                <div class="spacer20"></div>
+            </div>
+
+        </div>
+    </div>
+    <!--SKILLS-->
+    <div class="container-fluid skills" id="skillsAndresume">
+        <div class="row text-center">
+            <div class="spacer20"></div>
+            <h1 class="text-center heady">Skills And Resume</h1>
+            <div class="spacer20"></div>
+            <img src="img/html.png" alt="css" style="width:128px;height:128px">
+            <img src="img/js.png" alt="css" style="width:128px;height:128px">
+            <img src="img/css.png" alt="css" style="width:128px;height:128px">
+            <img src="img/java.png" alt="css" style="width:128px;height:128px">
+            <div class="spacer20"></div>
+            <a class="resume" href="resume_new.docx">Download Resume</a>
+            <div class="spacer20"></div>
+        </div>
+    </div>
+    <!--PROJECTS-->
+    <div class="container-fluid blacked" id="projects">
+        <div class="row text-center" project>
+            <div class="spacer20"></div>
+            <h1 class="text-center heady">Projects</h1>
+            <div class="spacer20"></div>
+            <div class="col-sm-4">
+                <img src="img/league_icon.jpg" alt="css" style="width:128px;height:128px">
+                <h3>Leaguerboards</h3>
+                <p class="text-center">Independent web application using jQuery, JSON, JavaScript, HTML and CSS and the League of Legends API</p>
+                <p>Currently a work in progress</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/github_icon.png" alt="css" style="width:128px;height:128px">
+                <h3><a href="https://github.com/adamabdelaziz" class="blacked">Git Hub</a></h3>
+                <p class="text-center">My various open source stuff and the source to my own projects as well.</p>
+                <p>Currently a work in progress</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/eyeoncode.png" alt="css" style="width:128px;height:128px">
+                <h3><a href="http://eyeoncode.appspot.com/" class="blacked">Eyes On Code</a></h3>
+                <p>4 man group project done in school using Google App Engine. HTML, CSS, JSP, JavaScript, AJAX, jQuery, JSON and Java</p>
+            </div>
+        </div>
+    </div>
+    <!--CONTACT-->
+    <div class="container-fluid skills" id="contact">
+        <div class="row text-center">
+            <div class="spacer20"></div>
+            <h1 class="text-center heady">Contact</h1>
+            <div class="spacer20"></div>
+            <h4>E-mail: adam.a.abdelaziz@gmail.com</h4>
+            <h4>Phone: 347-984-9258</h4>
+        </div>
+    </div>
+
+<footer>
+    <div class="container text-center blacked">
+
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!--Stellar-->
+<script src="js/jquery.stellar.js"></script>
+<script>
+    $('#jumbo').stellar();
+</script>
 </body>
 </html>

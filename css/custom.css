@@ -1,25 +1,102 @@
 body {
-    padding-top: 50px;
+    padding-top: 40px;
+    background:black;
 }
-
+.backgroundimg
+{
+    background:url(../img/bg5.jpg) no-repeat center center fixed;
+}
 .jumbotronTop
 {
-    height:110vh;
-    background:url(../img/bg1.jpg) no-repeat center center fixed;
+    height:70vh;
+
+    background:url(../img/bg5.jpg) no-repeat center center fixed;
+
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-
+    margin:0;
 }
 
 .jumbotronTop h1{
-    color:black;
+    color:white;
     margin: 0;
 
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%);
+    font-family:friz;
+    font-size:90px;
+    font-weight:bold;
+
 }
+
+.jumbotronTop h2{
+    color:white;
+    margin: 0;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family:open sans,sans-serif;
+    font-type:italic;
+    font-weight:bold;
+}
+.jumbotronTop h3{
+    color:white;
+    margin: 0;
+    background:black;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.blacked
+{
+    background:black;
+    color:white;
+}
+.skills
+{
+    background:url(../img/bg5.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    margin:0;
+    color:white;
+}
+
+.resume{
+    background:black;
+    color:white;
+    font-family:"Open Sans";
+    font-type:italic;
+    font-size:18px;
+}
+.col-sm-4 h3
+{
+    font-family:"Open Sans";
+    font-type:italic;
+
+}
+.texty
+{
+    font-size:18px;
+    font-family:"Open Sans";
+}
+.heady
+{
+    font-size:42px;
+    font-family:"Open Sans";
+    font-weight:bold;
+}
+
+.spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer20 { height: 20px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
