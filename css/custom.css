@@ -74,7 +74,7 @@ body {
 }
 
 .resume{
-    background:black;
+    
     color:white;
     font-family:"Open Sans";
     font-type:italic;
@@ -97,6 +97,10 @@ body {
     font-family:"Open Sans";
     font-weight:bold;
 }
-
+.gray
+{
+    background-color:#353543;
+    color:white;
+}
 .spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer20 { height: 20px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
